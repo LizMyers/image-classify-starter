@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect, useRef } from 'react';
+import * as mobilenet from "@tensorflow-models/mobilenet";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    
+
+    //your code goes here
+    //youtube video: https://www.youtube.com/watch?v=S_Lg1bVbqY4&t=443s
+
+    
+
+    return (
+        <div className="App">
+            <h1 className='header'>Image Identification</h1>
+            
+        </div>
+    );
 }
 
 export default App;
